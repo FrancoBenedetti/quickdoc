@@ -14,3 +14,5 @@ Access the sample manual by using, e.g. https://yourdomain.com/manual.
 [User Guide](https://docs.google.com/document/d/e/2PACX-1vRJDStiNjCz7vzgTFa0WDdkdKNkTqJYq-hJ4D_1vr1kiDIQTs5FVk4479r_LRdGriwOraOtgWoiJKUC/pub)
 
 [Developer Guide](https://docs.google.com/document/d/e/2PACX-1vSm0DpchhzAVBRl6q81T_WbQrM6-cVyppcUadu5VIgyO2GZ3o8ulr0-cqnKJQMWubpCmfFEyZDf2mDh/pub)
+
+[Live example](https://bizverse.biz/quickdoc)
