@@ -1,4 +1,5 @@
 <?php
+$server = $_SERVER['SERVER_NAME'];
 $json = file_get_contents('quickdoc.json');
 $outline = json_decode($json, true);
 processOutline($outline);

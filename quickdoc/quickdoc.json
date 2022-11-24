@@ -1,16 +1,12 @@
 {
   "#comment": "#### LIMIT TO TWO LEVELS ONLY FOR PRACTICAL REASONS ####",
   "tab":"Manual",
-  "title": "Quickdoc Manual",
+  "title": "Platform User Manual",
   "subtitle": "NAVIGATION",
   "contents": [
     {
-      "page": "home",
-      "title": "USER GUIDE HOME",
-      "navigation": {
-        "parent": false,
-        "sibling": true
-      },
+      "page": "admin",
+      "title": "MANUAL ADMIN",
       "contents": [
         {
           "page": "introduction",
@@ -21,22 +17,42 @@
         },
         {
           "page": "user-guide",
-          "title": "Users",
+          "title": "User Guide",
           "googleDoc": "https://docs.google.com/document/d/e/2PACX-1vRJDStiNjCz7vzgTFa0WDdkdKNkTqJYq-hJ4D_1vr1kiDIQTs5FVk4479r_LRdGriwOraOtgWoiJKUC/pub?embedded=true",    
           "edit": "https://docs.google.com/document/d/1BKeyZbSr3zJ3ZlrEPLPDDgDSf37I4umB7PzhHd-gowk/edit?usp=sharing",
           "contents": []
         },
         {
           "page": "developer",
-          "title": "Developers",
+          "title": "Developer Info",
           "googleDoc": "https://docs.google.com/document/d/e/2PACX-1vSm0DpchhzAVBRl6q81T_WbQrM6-cVyppcUadu5VIgyO2GZ3o8ulr0-cqnKJQMWubpCmfFEyZDf2mDh/pub?embedded=true",    
           "edit": "https://docs.google.com/document/d/1A-1S332ybX7KKBBbysfv3k3_55kl86bgmM79UT6LXD0/edit?usp=sharing",
           "contents": []
         },
         {
-          "page": "login",
-          "title": "To Manual Root",
-          "link": "/quickdoc/",
+          "page": "quickdoc",
+          "title": "Quickdoc",
+          "link": "/quickdoc/quickdoc/",
+          "edit": "",
+          "contents": []
+        }
+      ]
+    },
+    {
+      "page": "sample",
+      "title": "SAMPLE PAGES",
+      "contents": [
+        {
+          "page": "example-1",
+          "title": "Example Google Document",
+          "googleDoc": "https://docs.google.com/document/d/e/2PACX-1vQAu1g0tfmf176Gs2Y20hlhOdkWbZWgqxXTz5IiIQ6b2SI8m4QPZ7hSDyWBj52dBOvM5nsLKHAl-FVU/pub?embedded=true",    
+          "edit": "",
+          "contents": []
+        },
+        {
+          "page": "brochure",
+          "title": "Publication Brochure",
+          "googleDoc": "https://bizverse.biz/w/brochure/572/544147/626570?doctoken=CMATSObbhHQJ8UBeblD9MSRUQcdDb2dX7teKFcNL",    
           "edit": "",
           "contents": []
         }

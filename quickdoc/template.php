@@ -1,7 +1,3 @@
-<?php
-$docroot = $_SERVER['DOCUMENT_ROOT'];
-include "$docroot/bapi/files/config.php";
-?>
 <html>
 <head>
     <title><?php echo $tab; ?></title>
@@ -42,7 +38,7 @@ include "$docroot/bapi/files/config.php";
             </div>
         </div>
         <div class="outline">
-            <a href="//<?php echo BV_DOMAIN;?>" target="_blank"><h2><?php echo $subTitle;?></h2></a>
+            <a href="//<?php echo $server;?>" target="_blank"><h2><?php echo $subTitle;?></h2></a>
             <?php echo html_menu($path); ?>
             <div class="links">
                 <?php
