@@ -1,0 +1,172 @@
+
+
+html,body {
+	margin:0;
+	padding: 0; 
+	border:	none;
+	/* overflow-y: hidden; */
+	font-weight: 400;
+	font-family: roboto;
+}
+
+body {
+	margin-left: 80px;
+}
+
+h1 {
+	text-align: center;
+	background: white;
+	padding-top: 10px;
+	margin-top: 12px;
+	padding-bottom: 0px;
+}
+.row {
+    display: block;
+	position: relative;
+}
+
+.outline {
+	display:inline-block;
+    width: 250px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+
+.content {
+	display:inline-block;
+    width: 100%;
+	margin-top: -20px;
+}
+
+iframe {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: calc(100vw - 340px);
+	border: none;
+	height: calc(100vh - 246px);
+}
+
+.breadcrumbs {
+	padding-left: 20px;
+	font-size: 13px;
+	position: absolute;
+	top: 0;
+	margin-top: 3;
+}
+
+h2, h3 {
+	padding-left: 20px;
+}
+
+h2, h3 {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: lightgray;
+	font-size: 14px;
+	padding: 6px 10px;
+}
+
+.section .left {
+	background: #666666;
+}
+.section .right {
+	background: #666666;
+}
+
+.page .left {
+	background: #3484c3;
+}
+.page .right {
+	background: #3484c3;
+}
+
+.nav {
+	margin-left: 125px;
+}
+
+.links a {
+	display: block;
+	margin-bottom: -10px;
+}
+
+.menu a {
+	display: block;
+}
+
+.links {
+	border-top: 1px solid darkgray;
+	margin-left: 40px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.links a.section,
+.menu .section {
+	font-size: 15px;
+	color:#052e4e;
+	margin-top: 6px;
+}
+
+.menu .page {
+	font-size: 13px;
+	color: #125e95;
+	margin: 0px 10px;
+	padding: 3px 15px;
+}
+
+a.section.selected,
+a.page.selected {
+	text-decoration: none;
+}
+
+.extras {
+
+}
+
+.extras a {
+	text-decoration:
+	underline;
+	color: blue;
+	display: block;
+	margin: 5px auto;
+	width: fit-content;
+	font-size: 10px;
+}
+
+.content h3, .content h2 {
+	margin-left: 105px;
+	font-weight: 300;
+}
+
+.content h3 {
+	font-size: 15px;
+}
+
+.outline h2,
+.content h2 {
+	margin-top: 45px;
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.nav a {
+	font-size: 12px;
+}
+
+h1,
+.content h2,
+.content h3 {
+	color: #686868;
+}
+
+a h2 {
+	color: #686868;
+	margin-left: 15px;
+margin-bottom: 0;
+}
+

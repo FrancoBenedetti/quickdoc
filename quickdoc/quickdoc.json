@@ -1,0 +1,46 @@
+{
+  "#comment": "#### LIMIT TO TWO LEVELS ONLY FOR PRACTICAL REASONS ####",
+  "tab":"Manual",
+  "title": "Quickdoc Manual",
+  "subtitle": "NAVIGATION",
+  "contents": [
+    {
+      "page": "home",
+      "title": "USER GUIDE HOME",
+      "navigation": {
+        "parent": false,
+        "sibling": true
+      },
+      "contents": [
+        {
+          "page": "introduction",
+          "title": "Introduction",
+          "googleDoc": "https://docs.google.com/document/d/e/2PACX-1vRFiULOLRdOHd02DCHzFkWYvLLZKCaak7mwBBIeYKcSealvUbc5hbSWwJTkMlO9PiSRHwDJKOTmwbI1/pub?embedded=true",    
+          "edit": "https://docs.google.com/document/d/1o-4fLCNmxT6DnQfXZHdeFYB0zzKeDS6KjS17fjvoxVk/edit?usp=sharing",
+          "contents": []
+        },
+        {
+          "page": "user-guide",
+          "title": "Users",
+          "googleDoc": "https://docs.google.com/document/d/e/2PACX-1vRJDStiNjCz7vzgTFa0WDdkdKNkTqJYq-hJ4D_1vr1kiDIQTs5FVk4479r_LRdGriwOraOtgWoiJKUC/pub?embedded=true",    
+          "edit": "https://docs.google.com/document/d/1BKeyZbSr3zJ3ZlrEPLPDDgDSf37I4umB7PzhHd-gowk/edit?usp=sharing",
+          "contents": []
+        },
+        {
+          "page": "developer",
+          "title": "Developers",
+          "googleDoc": "https://docs.google.com/document/d/e/2PACX-1vSm0DpchhzAVBRl6q81T_WbQrM6-cVyppcUadu5VIgyO2GZ3o8ulr0-cqnKJQMWubpCmfFEyZDf2mDh/pub?embedded=true",    
+          "edit": "https://docs.google.com/document/d/1A-1S332ybX7KKBBbysfv3k3_55kl86bgmM79UT6LXD0/edit?usp=sharing",
+          "contents": []
+        },
+        {
+          "page": "login",
+          "title": "To Manual Root",
+          "link": "/manual/",
+          "edit": "",
+          "contents": []
+        }
+      ]
+    }
+  ]
+}
