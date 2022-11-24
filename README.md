@@ -7,7 +7,7 @@ Only users that have been granted permission to edit the underlying Google Docs 
 
 For documents to be viewable publicly, the linked Google Docs document must be shared using Publish to the Web.
 
-This set of files should be copied into a folder, e.g. with the name or 'manual' or 'documentation'.
+This set of files should be copied into a folder, e.g. with the name 'manual' or 'documentation'.
 
 Access the sample manual by using, e.g. https://yourdomain.com/manual.
 
