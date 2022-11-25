@@ -11,7 +11,7 @@ For documents to be viewable publicly, the linked Google Docs document must be s
 
 The quickdoc folder 'manual' folder should be copied into the root. This folder may be renamed however you like, e.g. 'documentation', 'user-guide' or 'help'.
 
-If you've used 'manual', then access the sample manual by using, e.g. https://yourdomain.com/manual.
+If you've used 'manual', then access the sample manual by using, e.g. https://yourdomain.com/manual. Be aware that if there are links between manuals, these links may require changes when the manual root folder name is changed.
 
 Add more folders and insert your instructions into the quickdoc.json to create more manuals and chapters of manuals.
 
