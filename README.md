@@ -7,9 +7,15 @@ Only users that have been granted permission to edit the underlying Google Docs 
 
 For documents to be viewable publicly, the linked Google Docs document must be shared using Publish to the Web.
 
-This set of files should be copied into a folder, e.g. with the name or 'manual' or 'documentation'.
+## Installation
 
-Access the sample manual by using, e.g. https://yourdomain.com/manual.
+The quickdoc folder 'manual' folder should be copied into the root. This folder may be renamed however you like, e.g. 'documentation', 'user-guide' or 'help'.
+
+If you've used 'manual', then access the sample manual by using, e.g. https://yourdomain.com/manual.
+
+Add more folders and insert your instructions into the quickdoc.json to create more manuals and chapters of manuals.
+
+## See Also
 
 [User Guide](https://docs.google.com/document/d/e/2PACX-1vRJDStiNjCz7vzgTFa0WDdkdKNkTqJYq-hJ4D_1vr1kiDIQTs5FVk4479r_LRdGriwOraOtgWoiJKUC/pub)
 
