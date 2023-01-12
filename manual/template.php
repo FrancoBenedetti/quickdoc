@@ -21,7 +21,7 @@
                 <?php 
                 }?>
             </div>
-            <h2><?php echo $pageTitle;?></h2>
+            <h2 class="page-title" title="Click to edit this page in Google Docs if you have been allocated editing rights"><?php echo "<a href=\"$editLink\" target=\"_blank\">$pageTitle</a>";?></h2>
             <div class="nav page">
                 <?php 
                 if ( $previousPage) { ?>
@@ -51,7 +51,7 @@
                 ?>
             </div>
             <div class="extras">
-                <a class="editlink" href="<?php echo $editLink;?>">EDIT</a>
+                <a hidden class="editlink" href="<?php echo $editLink;?>">EDIT</a>
             </div>
         </div>
     </div>

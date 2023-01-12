@@ -58,5 +58,11 @@
         }
       ]
     }
+  ],
+  "links": [
+    {
+      "url": "https://github.com/FrancoBenedetti/quickdoc",
+      "title": "Github"
+    }
   ]
 }
