@@ -22,3 +22,10 @@ Add more folders and insert your instructions into the quickdoc.json to create m
 [Developer Guide](https://docs.google.com/document/d/e/2PACX-1vSm0DpchhzAVBRl6q81T_WbQrM6-cVyppcUadu5VIgyO2GZ3o8ulr0-cqnKJQMWubpCmfFEyZDf2mDh/pub)
 
 [Live example](https://bizverse.biz/quickdoc)
+
+## Acknowledgements
+A simple php dom parser has been inorporated into Quickdoc as simple_html_dom.php, which file is used under MIT license:
+ * Website: http://sourceforge.net/projects/simplehtmldom/
+ * Additional projects: http://sourceforge.net/projects/debugobject/
+ * Acknowledge: Jose Solorzano (https://sourceforge.net/projects/php-html/)
+ 
