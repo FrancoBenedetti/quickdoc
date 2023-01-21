@@ -34,7 +34,9 @@
                 }?>
             </div>
             <div class="embed">
-                <iframe class="googledocs" src="<?php echo $pageElement['googleDoc']; ?>"></iframe>    
+                <?php 
+                    echo getDisplayPage($pageElement);
+                ?>
             </div>
         </div>
         <div class="outline">

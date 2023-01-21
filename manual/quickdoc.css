@@ -41,7 +41,15 @@ h1 {
 iframe {
 	margin-top: 20px;
 	margin-left: 20px;
-	width: calc(100vw - 340px);
+	width: calc(100vw - 350px);
+	border: none;
+	height: calc(100vh - 246px);
+}
+
+div.googledocs {
+	margin-top: 20px;
+	margin-left: 28px;
+	width: calc(100vw - 350px);
 	border: none;
 	height: calc(100vh - 246px);
 }

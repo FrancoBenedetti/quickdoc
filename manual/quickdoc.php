@@ -1,4 +1,5 @@
 <?php
+include "$docroot/$folder/simple_html_dom.php";
 $server = $_SERVER['SERVER_NAME'];
 $json = file_get_contents('quickdoc.json');
 $outline = json_decode($json, true);
@@ -7,6 +8,7 @@ $parts = parse_url($_SERVER['REQUEST_URI']);
 $pagePath = $parts['path'];
 $outline['url'] = $pagePath;
 $path = array_values(array_filter(explode('/',$_GET['view'])));
+$googleDoc_content = $outline['googleDoc_content'];
 
 if (count($path) == 0)
 {
@@ -154,6 +156,54 @@ function getPathElements($path, $outline)
         }
     }
     return $elements;
+}
+
+function getDisplayPage($pageElement)
+{
+    if ($link = $pageElement['googleDoc'])
+    {
+        if (isGoogle($link) && !$pageElement['iframe'])
+        {
+            $content = googleDoc_content($link);
+            return <<<txt
+            <div class="googledocs">
+            $content
+            <div>
+            txt;
+        }
+        else
+        {
+            return <<<txt
+            <iframe class="googledocs" src="$link"></iframe>"
+            txt;
+        }
+    }
+}
+
+function isGoogle($link)
+{
+  $url = parse_url($link);
+  return $url['host'] = 'docs.google.com' && str_contains($url['path'],'/document/d/e/');
+}
+
+function googleDoc_content($link)
+{
+    $txt = file_get_contents($link);
+    $html = new simple_html_dom($txt);
+    $scripts = $html->find('script');
+    if (is_array($scripts )) foreach ($scripts as $elm) $elm->remove();
+    $anchors = $html->find('a');
+    if (is_array($anchors)) foreach ($anchors as $elm) 
+    {
+        $url = parse_url($elm->href);
+        if ($url['path']=='/url')
+        {
+          $query = str_replace('&amp','&',$url['query']);
+          parse_str($query,$result);
+          $elm->href = $result['q'];
+        }
+    }
+    return $html->save();
 }
 
 function html_menu($path)
