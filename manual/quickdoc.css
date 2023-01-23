@@ -11,7 +11,7 @@ body {
 	margin-left: 80px;
 }
 
-h1 {
+h1.qd {
 	text-align: center;
 	background: white;
 	padding-top: 10px;
@@ -23,7 +23,7 @@ h1 {
 	position: relative;
 }
 
-.outline {
+.qd.outline {
 	display:inline-block;
     width: 250px;
 	position: absolute;
@@ -32,7 +32,7 @@ h1 {
 	
 }
 
-.content {
+.qd.content {
 	display:inline-block;
     width: 100%;
 	margin-top: -20px;
@@ -54,7 +54,7 @@ div.googledocs {
 	height: calc(100vh - 246px);
 }
 
-.breadcrumbs {
+p.qd.breadcrumbs {
 	padding-left: 20px;
 	font-size: 13px;
 	position: absolute;
@@ -62,15 +62,15 @@ div.googledocs {
 	margin-top: 3;
 }
 
-h2, h3 {
+h2.qd, h3.qd {
 	padding-left: 20px;
 }
 
-h2, h3 {
+h2.qd, h3.qd {
 	margin-bottom: 10px;
 }
 
-a {
+a.qd {
 	text-decoration: none;
 	color: lightgray;
 	font-size: 14px;
@@ -95,12 +95,12 @@ a {
 	margin-left: 125px;
 }
 
-.links a {
+.links a.qd {
 	display: block;
 	margin-bottom: -10px;
 }
 
-.menu a {
+.menu a.qd {
 	display: block;
 }
 
@@ -111,8 +111,8 @@ a {
 	margin-bottom: 30px;
 }
 
-.links a.section,
-.menu .section {
+.links a.section.qd,
+.menu .section.qd {
 	font-size: 15px;
 	color:#052e4e;
 	margin-top: 6px;
@@ -125,8 +125,8 @@ a {
 	padding: 3px 15px;
 }
 
-a.section.selected,
-a.page.selected {
+a.section.selected.qd,
+a.page.selected.qd {
 	text-decoration: none;
 }
 
@@ -134,7 +134,7 @@ a.page.selected {
 
 }
 
-.extras a {
+.extras a.qd {
 	text-decoration:
 	underline;
 	color: blue;
@@ -144,43 +144,43 @@ a.page.selected {
 	font-size: 10px;
 }
 
-.content h3, .content h2 {
+.qd.content h3.qd, .qd.content h2.qd {
 	margin-left: 105px;
 	font-weight: 300;
 }
 
-.content h3 {
+.qd.content h3.qd {
 	font-size: 15px;
 }
 
-.outline h2,
-.content h2 {
+.qd.outline h2.qd,
+.qd.content h2.qd {
 	margin-top: 45px;
 	font-size: 21px;
 	font-weight: 300;
 }
 
-.nav a {
+.nav a.qd {
 	font-size: 12px;
 }
 
-h1,
-.content h2,
-.content h3 {
+h1.qd,
+.qd.content h2.qd,
+.qd.content h3.qd {
 	color: #686868;
 }
 
-a h2 {
+a.qd h2.qd {
 	color: #686868;
 	margin-left: 15px;
 margin-bottom: 0;
 }
 
-a.editlink {
+a.editlink.qd {
 	display: none;
 }
 
-h2.page-title a {
+h2.qd.page-title a.qd {
 	font-size: unset;
 	color: unset;
 	padding: unset;

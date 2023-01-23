@@ -216,7 +216,7 @@ function html_menu($path)
         $url = pageUrl($section);
         $class = '';
         if ($path[0] == $section['page']) $class = ' selected';
-        $html .= "<a class=\"section$class\" href=\"$url\">$text</a>";
+        $html .= "<a class=\"qd section$class\" href=\"$url\">$text</a>";
         if ($path[0] == $section['page'])
         {
             foreach ($section['contents'] as $page)
@@ -227,7 +227,7 @@ function html_menu($path)
                 $url = pageUrl($page);
                 $tgt = "";
                 if(array_key_exists('link',  $page)) $tgt = 'target="_blank"';
-                $html .= "<a class=\"page $class\" href=\"$url\" $tgt>$text</a>";
+                $html .= "<a class=\"qd page $class\" href=\"$url\" $tgt>$text</a>";
             }
         }
     }

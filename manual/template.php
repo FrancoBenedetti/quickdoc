@@ -5,31 +5,31 @@
     <link rel="stylesheet" href="/<?php echo explode('/',$pagePath)[1]; ?>/quickdoc.css">
 </head>
 <body>
-    <h1><?php echo $mainTitle;?></h1>
-    <p class="breadcrumbs"><?php echo $breadcrumbs;?></p>
+    <h1 class="qd"><?php echo $mainTitle;?></h1>
+    <p class="qd breadcrumbs"><?php echo $breadcrumbs;?></p>
     <div class="row">
-        <div class="content">
-            <h3><?php echo $parentTitle;?></h3>
+        <div class="qd content">
+            <h3 class="qd"><?php echo $parentTitle;?></h3>
             <div class="nav section">
                 <?php 
                 if ($previousSection) {?>
-                 <a class="left" href="<?php echo $previousSection['url']; ?>">🠈 Prev: <?php echo $previousSection['title']; ?></a> 
+                 <a class="qd left" href="<?php echo $previousSection['url']; ?>">🠈 Prev: <?php echo $previousSection['title']; ?></a> 
                 <?php 
                 }
                 if ($nextSection) { ?>
-                <a class="right" href="<?php echo $nextSection['url']; ?>">Next: <?php echo $nextSection['title']; ?> 🠊</a>
+                <a class="qd right" href="<?php echo $nextSection['url']; ?>">Next: <?php echo $nextSection['title']; ?> 🠊</a>
                 <?php 
                 }?>
             </div>
-            <h2 class="page-title" title="Click to edit this page in Google Docs if you have been allocated editing rights"><?php echo "<a href=\"$editLink\" target=\"_blank\">$pageTitle</a>";?></h2>
+            <h2 class="qd page-title" title="Click to edit this page in Google Docs if you have been allocated editing rights"><?php echo "<a class=\"qd\" href=\"$editLink\" target=\"_blank\">$pageTitle</a>";?></h2>
             <div class="nav page">
                 <?php 
                 if ( $previousPage) { ?>
-                <a class="button page left" href="<?php echo $previousPage['url']; ?>">🠈 Prev: <?php echo $previousPage['title']; ?></a>
+                <a class="qd button page left" href="<?php echo $previousPage['url']; ?>">🠈 Prev: <?php echo $previousPage['title']; ?></a>
                 <?php 
                 }
                 if ($nextPage) { ?>
-                <a class="button page right" href="<?php echo $nextPage['url']; ?>">Next: <?php echo $nextPage['title']; ?> 🠊</a>
+                <a class="qd button page right" href="<?php echo $nextPage['url']; ?>">Next: <?php echo $nextPage['title']; ?> 🠊</a>
                 <?php
                 }?>
             </div>
@@ -39,21 +39,21 @@
                 ?>
             </div>
         </div>
-        <div class="outline">
-            <a href="//<?php echo $server;?>" target="_blank"><h2><?php echo $subTitle;?></h2></a>
+        <div class="qd outline">
+            <a class="qd" href="//<?php echo $server;?>" target="_blank"><h2><?php echo $subTitle;?></h2></a>
             <?php echo html_menu($path); ?>
             <div class="links">
                 <?php
                     foreach($outline['links'] as $link)
                     {
                         ?>
-                        <a class="section" href="<?php echo $link['url']; ?>"><?php echo $link['title']; ?></a>
+                        <a class="qd section" href="<?php echo $link['url']; ?>"><?php echo $link['title']; ?></a>
                         <?php
                     }
                 ?>
             </div>
             <div class="extras">
-                <a hidden class="editlink" href="<?php echo $editLink;?>">EDIT</a>
+                <a hidden class="qd editlink" href="<?php echo $editLink;?>">EDIT</a>
             </div>
         </div>
     </div>
